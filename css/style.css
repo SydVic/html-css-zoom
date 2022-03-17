@@ -69,6 +69,24 @@ div.partecipant-name{
     padding: 5px 8px;
 }
 
+div.partecipant-options{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(103, 114, 127, 0.5);
+    padding: 0 10px;
+    font-size: 1.2rem;
+    display: none;
+}
+
+div.partecipant-options a{
+    color: #ffffff;
+}
+
+li.partecipant:hover div.partecipant-options{
+    display: block;
+}
+
 /* FOOTER */
 footer{
     height: 100px;
