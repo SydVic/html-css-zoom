@@ -85,11 +85,11 @@ ul.footer-menu li{
     display: inline-block;
     color: #ffffff;
     text-align: center;
-    margin: 0px 5px;
+    margin: 0px 10px;
 }
 
 ul.footer-menu li.audio-video i{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 5px;
 }
 
