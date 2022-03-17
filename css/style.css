@@ -74,8 +74,6 @@ footer{
     height: 100px;
     justify-content: space-between;
     align-items: center;
-    
-    /* TEST */
     background-color: #222222;
 }
 
@@ -90,9 +88,13 @@ ul.footer-menu li{
     margin: 0px 5px;
 }
 
-ul.footer-menu li.audio-video > i{
+ul.footer-menu li.audio-video i{
     font-size: 2rem;
     margin-bottom: 5px;
+}
+
+ul.footer-menu li.audio-video.share > a{
+    color: #4ac800;
 }
 
 div.end-meeting{
@@ -102,6 +104,11 @@ div.end-meeting{
     background-color: #4a4a4a;
 }
 
-div.end-meeting p{
+div.end-meeting a{
     padding: 0 30px;
+    color: inherit;
+}
+
+footer a{
+    color:inherit;
 }
