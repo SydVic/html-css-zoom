@@ -1,5 +1,33 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+.flex{
+    display: flex;
+}
+
+header{
+    height: 60px;
+
+    /* TEST */
+    background-color: rgb(0, 255, 255);
+}
+
+main{
+    height: calc(100vh - 210px);
+    overflow-y: auto;
+
+    /* TEST */
+    background-color: rgb(0, 255, 0);
+}
+
+footer{
+    height: 150px;
+
+    /* TEST */
+    background-color: rgb(0, 81, 255);
 }
