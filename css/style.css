@@ -72,7 +72,36 @@ div.partecipant-name{
 /* FOOTER */
 footer{
     height: 100px;
-
+    justify-content: space-between;
+    align-items: center;
+    
     /* TEST */
     background-color: #222222;
+}
+
+ul.footer-menu{
+    align-items: center;
+}
+
+ul.footer-menu li{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+ul.footer-menu li.audio-video > i{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+div.end-meeting{
+    align-items: center;
+    height: 100%;
+    color: #ff0000;
+    background-color: #4a4a4a;
+}
+
+div.end-meeting p{
+    padding: 0 30px;
 }
