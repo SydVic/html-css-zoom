@@ -5,7 +5,13 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+.flex{
+    display: flex;
+}
+
 html{
+    font-size: 100%;
     font-family: 'Lato', sans-serif;
 }
 
@@ -17,14 +23,12 @@ ul{
     list-style: none;
 }
 
-/* COMMON */
-.flex{
-    display: flex;
-}
-
 /* HEADER */
 header{
+    width: 100%;
     height: 50px;
+    /* visto che è un layout particolare con zone molto fisse ci assicuriamo che se vengono aggiunte cose non escano fuori */
+    overflow: hidden;
     justify-content: flex-end;
     background-color: #000000;
 }
@@ -42,6 +46,7 @@ div.view a, div.screen a{
 
 /* MAIN */
 main{
+    width: 100%;
     height: calc(100vh - 150px);
     overflow-y: auto;
     background-color: #000000;
@@ -57,7 +62,7 @@ li.partecipant{
     width: 246px;
     height: 146px;
     background-image: url("https://picsum.photos/246/146");
-    margin: 10px 5px;
+    margin: 5px 5px;
 }
 
 div.partecipant-name{
@@ -89,7 +94,9 @@ li.partecipant:hover div.partecipant-options{
 
 /* FOOTER */
 footer{
+    width: 100%;
     height: 100px;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     background-color: #222222;
@@ -117,7 +124,7 @@ ul.footer-menu li.audio-video.share > a{
 
 div.end-meeting{
     align-items: center;
-    height: 100%;
+    align-self: stretch;
     color: #ff0000;
     background-color: #4a4a4a;
 }
